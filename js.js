@@ -8,7 +8,7 @@ function factory(multiplier) {
 
 // Example Usage
 const multiplyByFive = factory(5);
-console.log(multiplyByFive([1, 4, 3])); // [5, 10, 15]
+console.log(multiplyByFive([1, 3, 3])); // [5, 10, 15]
 
 const multiplyByTwo = factory(2);
 console.log(multiplyByTwo([4, 5, 6])); // [8, 10, 12]
